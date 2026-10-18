@@ -99,3 +99,24 @@ li a{
     border: 2px solid #3882F6;
     border-radius: 8px;
 }
+
+.quote{
+    background-color: #E5E7EB;
+    padding: 56px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote p{
+    color: #1F2937;
+    font-size: 21px;
+    font-style: italic;
+    margin-bottom: 8px;
+}
+ 
+.quote .author{
+    font-weight: bold;
+    align-self: flex-end;
+}
